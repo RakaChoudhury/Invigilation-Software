@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0AE3CB8D-343B-401D-AE1E-3A007A2811C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Inviligation</RootNamespace>
+    <AssemblyName>Inviligation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Faculty_Update_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Faculty_Update_a.Designer.cs">
+      <DependentUpon>Faculty_Update_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Insert_Faculty_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Insert_Faculty_a.Designer.cs">
+      <DependentUpon>Insert_Faculty_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reset_2_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset_2_a.Designer.cs">
+      <DependentUpon>Reset_2_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reset_1_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset_1_a.Designer.cs">
+      <DependentUpon>Reset_1_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_Settings_f.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personal_Settings_f.Designer.cs">
+      <DependentUpon>Personal_Settings_f.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personal_Settings_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personal_Settings_a.Designer.cs">
+      <DependentUpon>Personal_Settings_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave_Application_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave_Application_a.Designer.cs">
+      <DependentUpon>Leave_Application_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave_Applications_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave_Applications_a.Designer.cs">
+      <DependentUpon>Leave_Applications_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invigilation_Schedule_a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invigilation_Schedule_a.Designer.cs">
+      <DependentUpon>Invigilation_Schedule_a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Leave_Application_f.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Leave_Application_f.Designer.cs">
+      <DependentUpon>Leave_Application_f.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Invigilation_Schedule_f.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Invigilation_Schedule_f.Designer.cs">
+      <DependentUpon>Invigilation_Schedule_f.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Admin.Designer.cs">
+      <DependentUpon>Home_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home_Faculty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home_Faculty.Designer.cs">
+      <DependentUpon>Home_Faculty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Faculty_Update_a.resx">
+      <DependentUpon>Faculty_Update_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Insert_Faculty_a.resx">
+      <DependentUpon>Insert_Faculty_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reset_2_a.resx">
+      <DependentUpon>Reset_2_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reset_1_a.resx">
+      <DependentUpon>Reset_1_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal_Settings_f.resx">
+      <DependentUpon>Personal_Settings_f.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personal_Settings_a.resx">
+      <DependentUpon>Personal_Settings_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave_Application_a.resx">
+      <DependentUpon>Leave_Application_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave_Applications_a.resx">
+      <DependentUpon>Leave_Applications_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Leave_Application_f.resx">
+      <DependentUpon>Leave_Application_f.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invigilation_Schedule_a.resx">
+      <DependentUpon>Invigilation_Schedule_a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Invigilation_Schedule_f.resx">
+      <DependentUpon>Invigilation_Schedule_f.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Admin.resx">
+      <DependentUpon>Home_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home_Faculty.resx">
+      <DependentUpon>Home_Faculty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\home_nav.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
